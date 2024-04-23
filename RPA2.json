@@ -1,0 +1,66 @@
+{
+  "Name": "RPA2",
+  "CreationDate": "2024-4-23",
+  "Commands": [
+    {
+      "Command": "open",
+      "Target": "https://prdnpowd-lh.pan-energy.com:8101/irj/portal?NavigationTarget=ROLES://portal_content/com.pae.desarrollos/com.pae.transacciones/com.pae.roles/com.pae.transacciones/ecc",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=logonuidfield",
+      "Value": "",
+      "Targets": [
+        "id=logonuidfield",
+        "name=j_username",
+        "xpath=//*[@id=\"logonuidfield\"]",
+        "xpath=//input[@id='logonuidfield']",
+        "xpath=//td[2]/input",
+        "css=#logonuidfield"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=logonuidfield",
+      "Value": "xejc05",
+      "Targets": [
+        "id=logonuidfield",
+        "name=j_username",
+        "xpath=//*[@id=\"logonuidfield\"]",
+        "xpath=//input[@id='logonuidfield']",
+        "xpath=//td[2]/input",
+        "css=#logonuidfield"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=logonpassfield",
+      "Value": "Caed0412+",
+      "Targets": [
+        "id=logonpassfield",
+        "name=j_password",
+        "xpath=//*[@id=\"logonpassfield\"]",
+        "xpath=//input[@id='logonpassfield']",
+        "xpath=//tr[5]/td[2]/input",
+        "css=#logonpassfield"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "xpath=//*[@id=\"logonForm\"]/table/tbody/tr[7]/td/input",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"logonForm\"]/table/tbody/tr[7]/td/input",
+        "xpath=//input[@type='image']",
+        "xpath=//tr[7]/td/input",
+        "css=#logonForm > table > tbody > tr:nth-child(7) > td > input"
+      ],
+      "Description": ""
+    }
+  ]
+}
